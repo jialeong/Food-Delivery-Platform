@@ -8,9 +8,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
         <link rel="stylesheet" href="assets/css/ready.css">
         <link rel="stylesheet" href="assets/css/demo.css">
+        <link rel="shortcut icon" href="#" />
         
         <!-- font awesome cdn link  -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--<link rel="stylesheet" href="assets/css/Styles.css">-->
     </head>
     <body>
         <div class="wrapper">
@@ -32,7 +34,7 @@
                         <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
                             <!--drop-down-user-->
                             <li class="nav-item dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><i class="fas fa-user green" id="user-icon"></i></a>
+                                <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"><i class="fas fa-user green" id="user-icon"></i></a>
                                 <ul class="dropdown-menu dropdown-user">
                                     <li>
                                         <div class="user-box">
@@ -61,21 +63,21 @@
             <div class="sidebar">
                 <div class="scrollbar-inner sidebar-wrapper">
                     <ul class="nav">
-                        <li class="nav-item">
+                        <li class="nav-item active green">
                             <a href="admin_home.html">
                                 <i class="la la-dashboard"></i>
                                 <p>Dashboard</p>
                                 <span class="badge badge-count"></span>
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item green">
                             <a href="order_report.html">
-                                <i class="la la-table "></i>
+                                <i class="la la-table"></i>
                                 <p>Order Report</p>
                                 <span class="badge badge-count"></span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item green">
                             <a href="menu_management.html">
                                 <i class="la la-cutlery"></i>
                                 <p>Menu Management</p>
@@ -90,9 +92,85 @@
                 <!--page content-->
                 <div class="content">
                     <div class="container-fluid">
-                        <h4 class="page-title">Order Report</h4>
-                        <!--content-->
-                        
+                        <h4 class="page-title">Dashboard</h4>
+                        <!--Visitor, Sales, Order-->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card card-stats card-warning">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="icon-big text-center">
+                                                    <i class="la la-users"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 d-flex align-items-center">
+                                                <div class="numbers">
+                                                    <p class="card-category">Customers</p>
+                                                    <h4 class="card-title">1,294</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card card-stats card-success">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="icon-big text-center">
+                                                    <i class="la la-bar-chart"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 d-flex align-items-center">
+                                                <div class="numbers">
+                                                    <p class="card-category">Sales(RM)</p>
+                                                    <h4 class="card-title">1,345</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card card-stats card-primary">
+                                    <div class="card-body ">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="icon-big text-center">
+                                                    <i class="la la-check-circle"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 d-flex align-items-center">
+                                                <div class="numbers">
+                                                    <p class="card-category">Order</p>
+                                                    <h4 class="card-title">116</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--panel Task-->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Task</h4>
+                                        <p class="card-category">Complete</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="task-complete" class="chart-circle mt-4 mb-3"></div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="legend"><i class="la la-circle text-primary"></i> Completed</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--footer-->
@@ -126,8 +204,8 @@
             </div>
         </div>
     </body>
+    
     <script src="assets/js/core/jquery.3.2.1.min.js"></script>
-    <script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
     <script src="assets/js/core/popper.min.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
     <script src="assets/js/plugin/chartist/chartist.min.js"></script>
@@ -139,4 +217,5 @@
     <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
     <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
     <script src="assets/js/ready.min.js"></script>
+    <script src="assets/js/demo.js"></script>
 </html>
