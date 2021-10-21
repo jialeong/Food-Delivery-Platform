@@ -19,7 +19,7 @@
                 <!--logo header-->
                 <div class="logo-header">
                     <a href="admin_home.html" class="logo">
-                        <i class="fas fa-utensils"></i>Wan Lai Food Stall
+                        <i class="fas fa-utensils green"></i>Wan Lai Food Stall
                     </a>
                     <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
                         <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
                             <!--drop-down-user-->
                             <li class="nav-item dropdown">
-                                <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"><i class="fas fa-user" id="user-icon"></i></a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><i class="fas fa-user green" id="user-icon"></i></a>
                                 <ul class="dropdown-menu dropdown-user">
                                     <li>
                                         <div class="user-box">
@@ -70,7 +70,7 @@
                         </li>
                         <li class="nav-item active">
                             <a href="order_report.html">
-                                <i class="la la-table"></i>
+                                <i class="la la-table "></i>
                                 <p>Order Report</p>
                                 <span class="badge badge-count"></span>
                             </a>
@@ -92,7 +92,34 @@
                     <div class="container-fluid">
                         <h4 class="page-title">Order Report</h4>
                         <!--content-->
-                        
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="input-group">
+                                    <input type="text" name="itemSearchBar" id="itemSearchBar" placeholder="Search ..." class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">
+                                            <i class="la la-search search-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Order ID</th>
+                                            <th scope="col">Cust ID</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Amount</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="itemList">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--footer-->
