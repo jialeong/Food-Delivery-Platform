@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register User Page</title>
+    <meta name="author" content="CHIU SIEW CHIN">
+    <link rel="stylesheet" href="assets/css/Food Delivery Platform Style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+</head>
+
+<body class="Background_Color">
+    <div class="Register_Login_Top_Name">REGISTER USER</div>
+
+    <form name="regis_form" onsubmit="return(regis_validate());">
+        <div class="Register_User_Container">
+            <div class="Welcome_Statement">
+                <p class="text-primary">Welcome, please enter data in the empty box below.</p>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Email Address<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="email" class="form-control input-full" id="regis_email"
+                        placeholder="Enter Your Email Here" size="30px">
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Mobile Number<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="text" class="form-control input-full" id="regis_mobile_phone"
+                        placeholder="Enter Your Mobile Number Here" size="30px">
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Nick Name<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="text" class="form-control input-full" id="regis_nick_name"
+                        placeholder="Enter Your Nick Name Here" size="30px">
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Delivery Address<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="text" class="form-control input-full" id="regis_delivery_address1"
+                        placeholder="Enter Your Delivery Address Here" size="30px"><br>
+                    <input type="text" class="form-control input-full" id="regis_delivery_address2" size="30px"><br>
+                    <input type="text" class="form-control input-full" id="regis_delivery_address3" size="30px">
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Account Password<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="text" class="form-control input-full" id="regis_password"
+                        placeholder="Create Your Own Password" size="30px">
+                </div>
+            </div>
+
+            <div class="form-group form-inline">
+                <label for="inlineinput" class="col-md-3 col-form-label">Retype Password<start>*</start></label>
+                <div class="col-md-9 p-0">
+                    <input type="text" class="form-control input-full" id="regis_retype_password"
+                        placeholder="Retype Your Own Password" size="30px">
+                </div>
+            </div>
+
+            <div class="declaration">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" id="regis_checkbox">
+                        <span class="form-check-sign">
+                            I certify that all information I have entered above is true.
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="Register_Now_Button">
+                <button class="btn btn-primary" id="regis_btnRegister_Now">REGISTER
+                    NOW</button>
+            </div>
+
+            <div class="Regis_Cancel_Button">
+                <button class="btn btn-danger"><a href="Login Page.html">CANCEL</a></button>
+            </div>
+        </div>
+    </form>
+</body>
+
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/js/RegisterAccount_JavaScript.js"></script>
+
+</html>
