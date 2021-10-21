@@ -1,0 +1,256 @@
+.Background_Color{
+    background-color: #f2f3f8;
+}
+
+/*Login Page CSS Code (User Login)*/
+
+.Top_Name{
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content;
+    background-color: rgb(248, 246, 104);
+    padding: 10px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Restaurant_Name{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Welcome_Statement{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.User_Login_Container{
+    background-color: rgb(252, 231, 173);
+    width: fit-content;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Login_Button button{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Register_Account_Button button{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Register_Account_Button a{
+    color: black;
+}
+
+.Register_Account_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.Forget_Password_Button button{
+    width: 56%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Forget_Password_Button a{
+    color: black;
+}
+
+.Forget_Password_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Login Page CSS Code (User Login)*/
+
+
+/*Login Page CSS Code (Admin Login)*/
+
+.Admin_Top_Name{
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content;
+    background-color: rgb(169, 248, 218);
+    padding: 10px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Admin_Login_Container{
+    background-color: rgb(248, 247, 171);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10%;
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Admin_Forget_Password_Button button{
+    margin-top: 20%;
+    width: 48%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Admin_Forget_Password_Button a{
+    color: black;
+}
+
+.Admin_Forget_Password_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Login Page CSS Code (Admin Login)*/
+
+
+/*Register Account Page CSS Code*/
+
+.Register_Login_Top_Name{
+    margin: auto;
+    margin-top: 1%;
+    width: fit-content;
+    background-color: rgb(252, 209, 116);
+    padding: 10px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Register_User_Container{
+    background-color: rgb(246, 250, 194);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10%;
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Register_User_Container start{
+    font-weight: bold;
+    color: red;
+}
+
+.form-check-input{
+    width: 20px;
+    height: 25px;
+}
+
+.declaration{
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.declaration span{
+    font-weight: bold;
+    color: red;
+}
+
+.Register_Now_Button button{
+    width: 40%;
+    color: black;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Regis_Cancel_Button button{
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Regis_Cancel_Button a{
+    color: black;
+}
+
+.Regis_Cancel_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Register Account Page CSS Code*/
+
+
+/*Payment Page CSS Code*/
+
+.Card_Top_Name{
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content;
+    background-color: rgb(247, 203, 149);
+    padding: 10px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Detail_Box_Container{
+    background-color: bisque;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+    border: 2px solid;
+    border-radius: 3%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bank_description{
+    font-size: medium;
+}
+
+.bank_description start{
+    color: red;
+}
+
+.Meal_Box_Container{
+    margin-bottom: 10%;
+}
+
+.Payment_Cart_Page_Button{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.Payment_Cart_Page_Button button{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.Payment_Cart_Page_Button a{
+    color: black;
+}
+
+.Payment_Cart_Page_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Payment Page CSS Code*/
