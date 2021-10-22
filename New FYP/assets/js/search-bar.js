@@ -1,8 +1,8 @@
 // search-bar : Use to search item
 
 // Library
-itemLib = [{"img": "assets/img/food and beverage/Roti Kahwin.jpg", "itemName": "Roti Kahwin", "itemPr": "3.00", "itemType": "Food"},
-    {"img": "assets/img/food and beverage/Milo Ais.jpg", "itemName": "Milo Ais", "itemPr": "2.50", "itemType": "Beverage"}];
+itemLib = [{"img": "assets/img/food-and-beverage/Roti-Kahwin.jpg", "itemName": "Roti Kahwin", "itemPr": "3.00", "itemType": "Food"},
+    {"img": "assets/img/food-and-beverage/Milo-Ais.jpg", "itemName": "Milo Ais", "itemPr": "2.50", "itemType": "Beverage"}];
 
 // Declaration
 const itemList = document.getElementById('itemList');
