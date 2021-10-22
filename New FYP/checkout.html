@@ -25,109 +25,110 @@
 </head>
 
 <body>
-    <!-- Humberger Begin -->
-    <div class="humberger__menu__overlay"></div>
-    <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/Wan Lai Food Stall.png" alt=""></a>
-        </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__auth">
-                <i class="fa fa-user"></i>
-                <span class="arrow_carrot-down"></span>
+    <form name="payment_form" onsubmit="return(payment_validate());">
+        <!-- Humberger Begin -->
+        <div class="humberger__menu__overlay"></div>
+        <div class="humberger__menu__wrapper">
+            <div class="humberger__menu__logo">
+                <a href="#"><img src="img/Wan Lai Food Stall.png" alt=""></a>
+            </div>
+            <div class="humberger__menu__cart">
                 <ul>
-                    <li><a href="#">Account Settings</a></li>
-                    <li><a href="Login Page.html">Log Out</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                 </ul>
             </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="Home.html">Home</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="shoping-cart.html">Shopping Cart</a></li>
-                        <li><a href="checkout.html">Check Out</a></li>
+            <div class="humberger__menu__widget">
+                <div class="header__top__right__auth">
+                    <i class="fa fa-user"></i>
+                    <span class="arrow_carrot-down"></span>
+                    <ul>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="Login Page.html">Log Out</a></li>
                     </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+            <nav class="humberger__menu__nav mobile-menu">
+                <ul>
+                    <li class="active"><a href="Home.html">Home</a></li>
+                    <li><a href="#">Pages</a>
+                        <ul class="header__menu__dropdown">
+                            <li><a href="shoping-cart.html">Shopping Cart</a></li>
+                            <li><a href="checkout.html">Check Out</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-wrap"></div>
 
-    </div>
-    <!-- Humberger End -->
+        </div>
+        <!-- Humberger End -->
 
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i>siewchinn1031@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i></a>
-                                <span class="arrow_carrot-down"></span>
+        <!-- Header Section Begin -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="header__top__left">
                                 <ul>
-                                    <li><a href="#">Account Settings</a></li>
-                                    <li><a href="Login Page.html">Log Out</a></li>
+                                    <li><i class="fa fa-envelope"></i>siewchinn1031@gmail.com</li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="header__top__right">
+                                <div class="header__top__right__auth">
+                                    <a href="#"><i class="fa fa-user"></i></a>
+                                    <span class="arrow_carrot-down"></span>
+                                    <ul>
+                                        <li><a href="#">Account Settings</a></li>
+                                        <li><a href="Login Page.html">Log Out</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="Home.html">Home</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="header__menu__dropdown">
+                                        <li><a href="shoping-cart.html">Shopping Cart</a></li>
+                                        <li><a href="checkout.html">Check Out</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header__cart">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                        <ul>
-                            <li class="active"><a href="Home.html">Home</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="shoping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="checkout.html">Check Out</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                    </div>
+                <div class="humberger__open">
+                    <i class="fa fa-bars"></i>
                 </div>
             </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </header>
-    <!-- Header Section End -->
+        </header>
+        <!-- Header Section End -->
 
-    <!-- Hero Section Begin -->
-    <section class="hero">
+        <!-- Hero Section Begin -->
+        <!--<section class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -168,60 +169,60 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Hero Section End -->
+    </section>-->
+        <!-- Hero Section End -->
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Check Out</h2>
-                        <div class="breadcrumb__option">
-                            <a href="Home.html">Home</a>
-                            <span>Checkout</span>
+        <!-- Breadcrumb Section Begin -->
+        <section class="breadcrumb-section set-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="breadcrumb__text">
+                            <h2>Check Out</h2>
+                            <div class="breadcrumb__option">
+                                <a href="Home.html">Back To Home</a>
+                                <span>Checkout</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Breadcrumb Section End -->
+        </section>
+        <!-- Breadcrumb Section End -->
 
-    <!-- Checkout Section Begin -->
-    <section class="checkout spad">
-        <div class="container">
-            <div class="checkout__form">
-                <h4>Payment Details</h4>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Email Address<span>*</span></p>
-                                        <input type="email" disabled>
+        <!-- Checkout Section Begin -->
+        <section class="checkout spad">
+            <div class="container">
+                <div class="checkout__form">
+                    <h4>Payment Details</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Email Address<span>*</span></p>
+                                            <input type="email" id="payment_email" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Nick Name<span>*</span></p>
+                                            <input type="text" id="payment_nick_name">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Nick Name<span>*</span></p>
-                                        <input type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--<div class="checkout__input">
+                                <!--<div class="checkout__input">
                                 <p>Country<span>*</span></p>
                                 <input type="text">
                             </div>-->
-                            <div class="checkout__input">
-                                <p>Delivery Address<span>*</span></p>
-                                <input type="text" class="checkout__input__add">
-                                <input type="text"><br><br>
-                                <input type="text">
-                            </div>
-                            <!--<div class="checkout__input">
+                                <div class="checkout__input">
+                                    <p>Delivery Address<span>*</span></p>
+                                    <input type="text" class="checkout__input__add" id="payment_delivery_address_1">
+                                    <input type="text"><br><br>
+                                    <input type="text">
+                                </div>
+                                <!--<div class="checkout__input">
                                 <p>Town/City<span>*</span></p>
                                 <input type="text">
                             </div>
@@ -233,25 +234,25 @@
                                 <p>Postcode / ZIP<span>*</span></p>
                                 <input type="text">
                             </div>-->
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Contact Number<span>*</span></p>
-                                        <input type="text">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Contact Number<span>*</span></p>
+                                            <input type="text" id="payment_contact_number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="checkout__input">
+                                            <p>Service Method<span>*</span></p>
+                                            <select id="service_method">
+                                                <option>Delivery</option>
+                                                <option>Self-Pick-Up</option>
+                                                <option>Dine-In</option>
+                                            </select><br><br><br>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="checkout__input">
-                                        <p>Service Method<span>*</span></p>
-                                        <select id="service_method">
-                                            <option>Delivery</option>
-                                            <option>Self-Pick-Up</option>
-                                            <option>Dine-In</option>
-                                        </select><br><br><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--<div class="checkout__input__checkbox">
+                                <!--<div class="checkout__input__checkbox">
                                 <label for="acc">
                                     Create an account?
                                     <input type="checkbox" id="acc">
@@ -276,19 +277,19 @@
                                 <input type="text"
                                     placeholder="Notes about your order, e.g. special notes for delivery.">
                             </div>-->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="checkout__order">
-                                <h4>Your Order</h4>
-                                <div class="checkout__order__products">Products <span>Total</span></div>
-                                <ul>
-                                    <li>Vegetable’s Package <span>$75.99</span></li>
-                                    <li>Fresh Vegetable <span>$151.99</span></li>
-                                    <li>Organic Bananas <span>$53.99</span></li>
-                                </ul>
-                                <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
-                                <div class="checkout__order__total">Total <span>$750.99</span></div>
-                                <!--<div class="checkout__input__checkbox">
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="checkout__order">
+                                    <h4>Your Order</h4>
+                                    <div class="checkout__order__products">Products <span>Total</span></div>
+                                    <ul>
+                                        <li>Vegetable’s Package <span>$75.99</span></li>
+                                        <li>Fresh Vegetable <span>$151.99</span></li>
+                                        <li>Organic Bananas <span>$53.99</span></li>
+                                    </ul>
+                                    <div class="checkout__order__subtotal">Subtotal <span>$750.99</span></div>
+                                    <div class="checkout__order__total">Total <span>$750.99</span></div>
+                                    <!--<div class="checkout__input__checkbox">
                                     <label for="acc-or">
                                         Create an account?
                                         <input type="checkbox" id="acc-or">
@@ -312,80 +313,81 @@
                                     </label>
                                 </div>-->
 
-                                <div class="form-group">
-                                    <label for="largeInput">Payment Method</label>
+                                    <div class="form-group">
+                                        <label for="largeInput">Payment Method</label>
 
-                                    <br>
+                                        <br>
 
-                                    <label class="form-radio-label">
-                                        <input class="form-radio-input" type="radio" name="optionsRadios" value="FPX Online Banking"
-                                            onclick="displayBank(1)" checked>
-                                        <span class="form-radio-sign">Online Banking</span>
-                                    </label>
+                                        <label class="form-radio-label">
+                                            <input class="form-radio-input" type="radio" name="optionsRadios"
+                                                value="FPX Online Banking" onclick="displayBank(1)" checked>
+                                            <span class="form-radio-sign">Online Banking</span>
+                                        </label>
 
-                                    <br>
+                                        <br>
 
-                                    <div class="bank_description" id="bank_information">
-                                        <b>Bank Name:</b> <i>Public Bank</i>
+                                        <div class="bank_description" id="bank_information">
+                                            <b>Bank Name:</b> <i>Public Bank</i>
+                                            <br>
+                                            <b>Bank Account Number:</b> <i>0123456789</i>
+                                            <br>
+                                            <b>Bank Account Name:</b> <i>CHIU SIEW CHIN</i>
+                                            <br>
+                                            <b>Payment Receipt:</b>
+                                            <start>(Please upload your <b>PAYMENT RECEIPT</b> as evidence)</start>
+                                            <br>
+                                            <input type="file" id="upload_file" name="uploadFile"
+                                                onchange="return fileValidate()">
+                                        </div>
+
                                         <br>
-                                        <b>Bank Account Number:</b> <i>0123456789</i>
-                                        <br>
-                                        <b>Bank Account Name:</b> <i>CHIU SIEW CHIN</i>
-                                        <br>
-                                        <b>Payment Receipt:</b>
-                                        <start>(Please upload your <b>PAYMENT RECEIPT</b> as evidence)</start>
-                                        <br>
-                                        <input type="file" id="upload_file" name="uploadFile" onchange="return fileValidate()">
+
+                                        <label class="form-radio-label">
+                                            <input class="form-radio-input" type="radio" name="optionsRadios"
+                                                value="Cash on Delivery" onclick="displayBank(0)">
+                                            <span class="form-radio-sign">Cash on Delivery</span>
+                                        </label>
                                     </div>
 
-                                    <br>
-
-                                    <label class="form-radio-label">
-                                        <input class="form-radio-input" type="radio" name="optionsRadios" value="Cash on Delivery"
-                                            onclick="displayBank(0)">
-                                        <span class="form-radio-sign">Cash on Delivery</span>
-                                    </label>
+                                    <button type="submit" class="site-btn">PLACE ORDER</button>
                                 </div>
-
-                                <button type="submit" class="site-btn">PLACE ORDER</button>
                             </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- Checkout Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Address: Open Air Market 11 Jalan Merdeka 96100 Sarikei, Sarawak.</li>
-                            <li>Phone: +60178599238</li>
-                            <li>Email: siewchinn1031@gmail.com</li>
-                        </ul>
-                    </div>
+                    </form>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                        <div class="footer__widget__social">
+            </div>
+        </section>
+        <!-- Checkout Section End -->
+
+        <!-- Footer Section Begin -->
+        <footer class="footer spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer__about">
+                            <div class="footer__about__logo">
+                                <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png" alt=""></a>
+                            </div>
+                            <ul>
+                                <li>Address: Open Air Market 11 Jalan Merdeka 96100 Sarikei, Sarawak.</li>
+                                <li>Phone: +60178599238</li>
+                                <li>Email: siewchinn1031@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                        <div class="footer__widget">
+                            <h6>Useful Links</h6>
+                            <ul>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            <!--<div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>-->
                         </div>
                     </div>
-                </div>
-                <!--<div class="col-lg-4 col-md-12">
+                    <!--<div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
                         <h6>Join Our Newsletter Now</h6>
                         <p>Get E-mail updates about our latest shop and special offers.</p>
@@ -399,21 +401,23 @@
                         </div>
                     </div>
                 </div>-->
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright__text">
-                        <p>
-                            Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by C.D.L.</a>
-                        </p>
-                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer__copyright__text">
+                            <p>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved <i
+                                    class="fa fa-heart" aria-hidden="true"></i> by C.D.L.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
+        </footer>
+        <!-- Footer Section End -->
+    </form>
+
 
     <!-- Js Plugins -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
