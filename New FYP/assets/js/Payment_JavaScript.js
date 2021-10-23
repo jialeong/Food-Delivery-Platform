@@ -7,6 +7,11 @@ function payment_validate() {
     document.payment_form.payment_nick_name.focus();
     return false;
   }
+  if (document.payment_form.payment_delivery_address_1.value == "") {
+    alert("Please provide your Delivery Address");
+    document.payment_form.payment_delivery_address_1.focus();
+    return false;
+  }
   if (document.payment_form.payment_contact_number.value == "") {
     alert("Please provide your Contact Number");
     document.payment_form.payment_contact_number.focus();
@@ -17,11 +22,6 @@ function payment_validate() {
   } else {
     alert("Not a valid Phone Number");
     document.payment_form.payment_contact_number.focus();
-    return false;
-  }
-  if (document.payment_form.payment_delivery_address_1.value == "") {
-    alert("Please provide your Delivery Address");
-    document.payment_form.payment_delivery_address_1.focus();
     return false;
   }
   return true;
