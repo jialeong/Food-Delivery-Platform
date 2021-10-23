@@ -254,3 +254,14 @@
 }
 
 /*Payment Page CSS Code*/
+
+
+/*Order History Page CSS Code*/
+
+.header_bar_color table thead tr th{
+    background-color: rgb(74, 145, 74);
+    color: black;
+    font-size: 20px;
+}
+
+/*Order History Page CSS Code*/
