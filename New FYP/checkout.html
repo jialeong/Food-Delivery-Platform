@@ -43,6 +43,7 @@
                     <span class="arrow_carrot-down"></span>
                     <ul>
                         <li><a href="#">Account Settings</a></li>
+                        <li><a href="User History.html">Order History</a></li>
                         <li><a href="Login Page.html">Log Out</a></li>
                     </ul>
                 </div>
@@ -83,6 +84,7 @@
                                     <span class="arrow_carrot-down"></span>
                                     <ul>
                                         <li><a href="#">Account Settings</a></li>
+                                        <li><a href="User History.html">Order History</a></li>
                                         <li><a href="Login Page.html">Log Out</a></li>
                                     </ul>
                                 </div>
@@ -242,7 +244,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="checkout__input">
+                                        <div class="checkout__input" id="service_method">
                                             <p>Service Method<span>*</span></p>
                                             <select id="service_method">
                                                 <option>Delivery</option>
@@ -252,6 +254,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="form-floating">
+                                    <label for="floatingTextarea">Remarks</label>
+                                    <textarea class="form-control" rows="4"
+                                        placeholder="If you choose to pick it up by yourself, please be sure indicate the time when you pick it up."
+                                        id="remarks"></textarea>
+                                </div>
+
+                                <br>
+
                                 <!--<div class="checkout__input__checkbox">
                                 <label for="acc">
                                     Create an account?
@@ -429,6 +440,13 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/Payment_JavaScript.js"></script>
+
+    <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
 
 </body>
