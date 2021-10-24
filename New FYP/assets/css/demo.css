@@ -103,15 +103,24 @@
 }
 
 header .logo-header{
-    color:var(--black);
+    color:var(--green);
     font-size: 2.5rem;
     font-weight: bolder;
 }
 
-header .logo-header i{
+header .logo-header a{
     color:var(--green);
 }
 
 .green {
     color:var(--green);
+}
+
+.logo-header .logo {
+    text-decoration: none;
+}
+
+.logo-header .logo img{
+    width: 180px;
+    height: auto;
 }
