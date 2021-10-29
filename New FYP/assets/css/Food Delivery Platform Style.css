@@ -8,12 +8,11 @@
     margin: auto;
     margin-top: 5%;
     width: fit-content;
-    background-color: rgb(248, 246, 104);
+    background-color: #FF8C00;
     padding: 10px 50px;
     border: 2px solid;
     border-radius: 10px;
     font-size: 30px;
-    font-weight: bold;
 }
 
 .Restaurant_Name{
@@ -36,6 +35,10 @@
     border-radius: 10%;
     padding: 20px;
     font-size: 20px;
+}
+
+.Top_Name b{
+    color: white;
 }
 
 .Login_Button button{
@@ -80,20 +83,23 @@
 
 /*Login Page CSS Code (Admin Login)*/
 
+.Admin_Top_Name b{
+    color: white;
+}
+
 .Admin_Top_Name{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 8%;
     width: fit-content;
-    background-color: rgb(169, 248, 218);
+    background-color: var(--green);
     padding: 10px 50px;
     border: 2px solid;
     border-radius: 10px;
     font-size: 30px;
-    font-weight: bold;
 }
 
 .Admin_Login_Container{
-    background-color: rgb(248, 247, 171);
+    background-color: rgb(252, 231, 173);
     width: fit-content;
     margin: auto;
     margin-bottom: 10%;
@@ -128,16 +134,20 @@
     margin: auto;
     margin-top: 1%;
     width: fit-content;
-    background-color: rgb(252, 209, 116);
+    background-color: rgb(224, 236, 192);
     padding: 10px 50px;
     border: 2px solid;
     border-radius: 10px;
     font-size: 30px;
-    font-weight: bold;
+    background-color: #1E90FF;
+}
+
+.Register_Login_Top_Name b{
+    color: white;
 }
 
 .Register_User_Container{
-    background-color: rgb(246, 250, 194);
+    background-color: rgb(252, 231, 173);
     width: fit-content;
     margin: auto;
     margin-bottom: 10%;
@@ -164,13 +174,12 @@
 }
 
 .declaration span{
-    font-weight: bold;
     color: red;
 }
 
 .Register_Now_Button button{
     width: 40%;
-    color: black;
+    color: white;
     margin-bottom: 3%;
     font-weight: bold;
     font-size: 20px;
@@ -183,7 +192,7 @@
 }
 
 .Regis_Cancel_Button a{
-    color: black;
+    color: white;
 }
 
 .Regis_Cancel_Button a:hover{
@@ -194,7 +203,62 @@
 /*Register Account Page CSS Code*/
 
 
-/*Payment Page CSS Code*/
+/*Forgot Password Page CSS Code*/
+
+.Forgot_Passowrd_Top_Name{
+    margin: auto;
+    margin-top: 7%;
+    width: fit-content;
+    background-color: red;
+    padding: 10px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.Forgot_Passowrd_Top_Name b{
+    color: white;
+}
+
+.Forgot_Passowrd_Container{
+    background-color: rgb(252, 231, 173);
+    width: fit-content;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Forgot_Passowrd_ResetNow_Button{
+    margin-top: 10%;
+    float: right;
+}
+
+.Forgot_Passowrd_ResetNow_Button button{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Forgot_Passowrd_LoginNow_Button button{
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Forgot_Passowrd_LoginNow_Button a{
+    color: white;
+}
+
+.Forgot_Passowrd_LoginNow_Button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Forgot Password Page CSS Code*/
+
+
+/*Check Out Page CSS Code*/
 
 .Card_Top_Name{
     margin: auto;
@@ -253,7 +317,11 @@
     color: white;
 }
 
-/*Payment Page CSS Code*/
+.form-floating start{
+    color: red;
+}
+
+/*Check Out Page CSS Code*/
 
 
 /*Order History Page CSS Code*/
