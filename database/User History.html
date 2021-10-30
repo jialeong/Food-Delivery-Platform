@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order History Page</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/ready.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/Food Delivery Platform Style.css">
+</head>
+
+<body>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="assets/img/Wan Lai Food Stall.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__auth">
+                <i class="fa fa-user"></i>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Account Settings</a></li>
+                    <li><a href="User History.html">Order History</a></li>
+                    <li><a href="Login Page.html">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="Home.html">Home</a></li>
+                <li><a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="shoping-cart.html">Shopping Cart</a></li>
+                        <li><a href="checkout.html">Check Out</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i>siewchinn1031@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i></a>
+                                <span class="arrow_carrot-down"></span>
+                                <ul>
+                                    <li><a href="#">Account Settings</a></li>
+                                    <li><a href="User History.html">Order History</a></li>
+                                    <li><a href="Login Page.html">Log Out</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="Home.html">Home</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="shoping-cart.html">Shopping Cart</a></li>
+                                    <li><a href="checkout.html">Check Out</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Order History</h2>
+                        <div class="breadcrumb__option">
+                            <a href="Home.html">Back To Home</a>
+                            <span>Order History</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+
+    <div class="header_bar_color">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Order ID</th>
+                    <th scope="col">Order Date</th>
+                    <th scope="col">Order Status</th>
+                    <th scope="col">More Details</th>
+                </tr>
+            </thead>
+            <tbody id="itemList">
+                <tr id="item">
+                    <td>
+                        <div class="photo">
+                            <img src="assets/img/food-and-beverage/Roti-Kahwin.jpg">
+                        </div>Roti Kahwin
+                    </td>
+                    <td>3.00</td>
+                    <td>Food</td>
+                    <td><button class="btn btn-primary btn-border btn-round" data-toggle="modal"
+                            data-target="#addItemForm">View Now</button></td>
+                </tr>
+
+                <tr id="item">
+                    <td>
+                        <div class="photo">
+                            <img src="assets/img/food-and-beverage/Milo-Ais.jpg">
+                        </div>Milo Ais
+                    </td>
+                    <td>2.50</td>
+                    <td>Beverage</td>
+                    <td><button class="btn btn-primary btn-border btn-round" data-toggle="modal"
+                            data-target="#addItemForm">View Now</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="addItemForm" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h6 class="modal-title"><i class=""></i> Order Details</h6>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <!-- <div class="card-header">
+                            <div class="card-title">Item Details</div>
+                        </div> -->
+                        <div class="card-body">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Order ID</label>
+                                    <input type="text" class="form-control input-square" id="his_order_id" disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Order Date</label>
+                                    <input type="text" class="form-control input-square" id="his_order_date" disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Service Method</label>
+                                    <input type="text" class="form-control input-square" id="his_service_method"
+                                        disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Payment Method</label>
+                                    <input type="text" class="form-control input-square" id="his_payment_method"
+                                        disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Order Status</label>
+                                    <input type="text" class="form-control input-square" id="his_order_status" disabled>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputEmail4" class="form-label">Remarks</label>
+                                    <textarea type="text" class="form-control input-square" id="his_remarks" disabled>
+                                </textarea>
+                            </form>
+
+                            <hr>
+
+                            <!-- <div class="form-group">
+                                <label for="itemType">Item Type</label>
+                                <select class="form-control input-square" id="itemType">
+                                    <option>Food</option>
+                                    <option>Beverage</option>
+                                </select>
+                            </div> -->
+
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Shopping Cart ID</label>
+                                    <input type="text" class="form-control input-square" id="his_cart_id" disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Total Price</label>
+                                    <input type="text" class="form-control input-square" id="his_total_price" disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Meal Name</label>
+                                    <input type="text" class="form-control input-square" id="his_meal_name" disabled>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Price Per Meal</label>
+                                    <input type="text" class="form-control input-square" id="his_price_per_meal"
+                                        disabled>
+                                </div>
+                                <!-- <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Order Status</label>
+                                    <input type="text" class="form-control input-square" id="his_order_status" disabled>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputEmail4" class="form-label">Remarks</label>
+                                    <textarea type="text" class="form-control input-square" id="his_remarks" disabled>
+                                </textarea> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-danger">Delete</button>
+                    <button type="button" class="btn btn-success">Submit</button> -->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="Home.html"><img src="assets/img/Wan Lai Food Stall.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Address: Open Air Market 11 Jalan Merdeka 96100 Sarikei, Sarawak.</li>
+                            <li>Phone: +60178599238</li>
+                            <li>Email: siewchinn1031@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <!--<div class="footer__widget__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved <i
+                                    class="fa fa-heart" aria-hidden="true"></i> by C.D.L.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/chartist/chartist.min.js"></script>
+    <script src="assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+    <script src="assets/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="assets/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="assets/js/ready.min.js"></script>
+    <script src="assets/js/search-bar.js"></script>
+
+
+
+</body>
+
+</html>
