@@ -45,10 +45,12 @@
             </div>
 
             <div class="Forget_Password_Button">
-                <button class="btn btn-danger"><a href="Forgot Password Page.html">Forget The Password</a></button>
+                <button class="btn btn-danger"><a href="requestReset.php">Forgot The Password</a></button>
             </div>
         </div>
+    </form>
 
+    <form action="admin_login.php" method="post">
         <div class="Admin_Top_Name"><b>ADMIN LOGIN</b></div>
 
         <div class="Admin_Login_Container">
@@ -57,6 +59,10 @@
             <div class="Welcome_Statement">
                 <p class="text-primary">Welcome back admin, the system is ready to <br> serve &#128512;</p>
             </div>
+
+            <?php if (isset($_GET['admin_error'])) { ?>
+     			<p class="alert alert-danger"><?php echo $_GET['admin_error']; ?></p>
+     		<?php } ?>
 
             <div class="form-group">
                 <label for="email">Email Address</label>
@@ -69,11 +75,12 @@
             </div>
 
             <div class="Login_Button">
-                <button class="btn btn-success" type="submit" id="admin_btnLogin" onclick="admin_validate()">LOGIN</button>
+                <button class="btn btn-success" type="submit" id="admin_btnLogin" onclick="admin_validate()"
+                value="admin_login">LOGIN</button>
             </div>
 
             <div class="Admin_Forget_Password_Button">
-                <button class="btn btn-danger"><a href="Forgot Password Page.html">Forget The Password</a></button>
+                <button class="btn btn-danger"><a href="admin_requestReset.php"">Forgot The Password</a></button>
             </div>
         </div>
     </form>
